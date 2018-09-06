@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title -->
+    <title> online work 2018 1</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Monoton|Playball|Shrikhand" rel="stylesheet">
+    <!-- all css file heare -->
+  
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- responsive css -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <style>
+      
+      
+    </style>
+  </head>
+  <body>
+   
+   
+    <div class="slider-area">
+        
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header-content text-center">
+              <img src="assets/images/hellary.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-contents">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="middle-content text-center">
+             <div id="particles-js"></div>
+                  <div class="opacity-1" data-stellar-background-ratio="0.6"> 
+                       <video autoplay muted loop id="myVideo" class="">
+                         <source src="tramsparent_video_180327090429.mov" type="video/mp4">
+                       </video>       
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="logo-footer">
+            <div class="col-md-6 ">
+              <ul class="nav-left">
+               <button id="myBtn" onclick="myFunction()"><img src="assets/images/pause.png" alt=""></button>
+              </ul>
+            </div>
+            <div class="col-md-6 ">
+              <ul class="nav-right text-right">
+                <li><img src="assets/images/network.png" alt="network.png"></li>
+                <li><a href="https://www.etsy.com/people/3vehfawo" target="_blank" class="cart"><img src="assets/images/cart.png" alt=""></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "<img src='assets/images/pause.png'>";
+      } else {
+        video.pause();
+        btn.innerHTML = "<img src='assets/images/play1.png'>";
+      }
+    }
+    </script>
+
+    
+
+    <!-- jQuery all file -->
+    <!-- ajax.googleapis.com js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- particles.min.js -->
+        <script src="assets/js/particles.min.js"></script>
+    <!-- app.js -->
+        <script src="assets/js/app.js"></script>     
+        
+  </body>
+</html>
