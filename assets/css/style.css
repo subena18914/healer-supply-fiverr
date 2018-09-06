@@ -1,0 +1,897 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	line-height: 24px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.clr{
+	clear: both;
+}
+
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*
+		font-family: 'Berkshire Swash', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Playball', cursive;
+*/
+/*main css coding start*/
+/****************  index one design   *****************/
+.header,.footer{
+	background: #000000;
+	padding: 20px 0px;
+	color: #ffffff;
+}
+.header{
+
+}
+.header-content{
+	padding-top: 30px;
+	position: relative;
+	margin-bottom: -100px;
+	z-index: 99999;
+}
+.header-content h3{
+	font-size: 18px;
+	font-weight: 800;
+	padding-bottom: 10px;
+}
+.header-content img{
+	padding: 5px 0px;
+	display: block;
+	margin: 0 auto;
+}
+.header-content h2{
+	color: #f81111;
+	font-family: Helvetica,Arial,sans-serif;
+		
+}
+.header-content p{
+	padding-top: 10px;
+}
+.header-content p::before { 
+    content: url('../images/line3.png');
+    margin-right: 20px;
+    
+    
+}
+.header-content p::after { 
+    content: url('../images/line4.png');
+    margin-left: 20px;
+
+}
+.main-content{
+	position: absolute;
+	z-index: 0;
+
+	
+}
+.middle-content h1{
+	font-weight: 700;
+	font-size: 70px;
+	text-transform: uppercase;
+	padding: 100px 0px;
+}
+.footer{}
+.main-content{
+	background: url(../images/mainpage.jpg);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: cover;
+	padding: 170px 0px;
+	position: relative;
+}
+.nav-left{
+	float: left;
+}
+.nav-left li{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav-right{
+	float: right;
+}
+.nav-right li{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+.film-footer img{
+	margin-top: -120px;
+	width: 150px;
+	margin-bottom: 30px;
+}
+.film-footer h3{
+	padding: 30px 0px;
+}
+.cross{
+	padding-right: 50px;
+}
+.follow{
+	padding-right: 30px;
+	font-size: 14px !important;
+	padding-bottom: 10px;
+	padding-top: 10px;
+  text-transform: capitalize;
+}
+.instagram{
+	padding-left: 10px;
+}
+.cart{
+	margin:0px 30px 0px 20px;
+}
+.comming{
+	font-size: 30px;
+}
+.main-contents{
+	padding: 250px 0px;
+}
+.float-left{
+  padding-left: 100px;
+}
+/*video page*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 80px;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #F71311;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    border-radius: 5px;
+}
+#myBtn img{
+	width: 30px;
+}
+
+#myBtn:hover {
+    background: #F71311;
+    color: black;
+}
+/*preloader*/
+.preloader{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:100%;
+  height:100%;
+  background:#000000;
+  background-size: cover;
+  visibility:hidden;
+  opacity:0;
+  -webkit-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+  z-index:99999999999999;
+}
+.preloader_inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: 300;
+  color: red;
+}
+
+
+
+
+.page{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+
+}
+
+.show{
+  visibility:visible !important;
+  opacity:1 !important;
+  -webkit-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+
+/* bg-img */
+
+
+
+
+/*----------------------
+4.Slider-area
+------------------------*/
+
+.opacity-1::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  background: #000;
+  opacity: .6;
+}
+
+
+
+
+
+
+
+/*------------------------
+  20.Other-css
+--------------------------*/
+
+
+
+
+#particles-js {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1
+}
+
+.footer-last p{
+    text-align: center;
+    color: #ffffff;
+
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
